@@ -1,0 +1,18 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.1.0",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Yifan Wu", email = "tyivanwu@gmail.com"},
+]
+dependencies = [
+    "neutone-sdk>=1.1.1",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
